@@ -1,0 +1,532 @@
+@font-face {
+    font-family:"dyslexie";
+    src: url(Dyslexie_Regular_159911.ttf);
+}
+
+@font-face {
+    font-family:"dyslexie";
+    src: url(Dyslexie_Bold_159911.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family:"dyslexie";
+    src: url(Dyslexie_Bold_Italic_159911.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family:"dyslexie";
+    src: url(Dyslexie_Italic_159911.ttf);
+    font-style: italic;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0;
+    max-width: 1200px;
+    font-family: "dyslexie", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, div, form, input {
+    font-family: "Dyslexie", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #222;
+    text-decoration: none;
+}
+
+header, footer, .footer {
+    background-color: #ffe28a;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: #84a3ff;
+    font-size: 12px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #84a3ff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #84a3ff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 900px;
+    color: #84a3ff;
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 900px;
+    color: #84a3ff;
+    margin: 20px 0;
+}
+
+.h2-about {
+    margin: 0px;
+    text-align: right;
+    transform: translate(0px, 10px);
+}
+
+.h2-thanks {
+    margin: 0px 60px 60px 60px;
+
+}
+
+a, .column {
+    text-transform: uppercase;
+    color: #84a3ff;
+    font-size: 14px;
+    text-align: left;
+}
+
+a:hover, .column:hover {
+    color: #69d998 ;
+}
+
+.column {
+    column-count: 2;
+    column-gap: 40px;
+    column-span: all;
+    width: 140px;
+    text-align: left;
+    font-size: 10px;
+    padding-right: 60px;
+    
+}
+
+.hero-image-home {
+    background-image: url("images/hand-writing.png");min-width: 1000px;background-position: right;
+} 
+
+.hero-image-about {
+    background-image: url("images/circle.png");
+    background-position: center;
+}
+    
+.hero-image-about, .hero-image-home {
+    background-color: #cccccc;
+    height: 480px;
+    max-width: 1200;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 160px;
+    color: #84a3ff;
+    font-size: 54px;
+    padding-left: 60px;
+    width: 760px;
+    font-family: "Dyslexie";
+    box-sizing: border-box;
+    font-weight: 600;
+    line-height: 90px;
+
+}
+
+.involvement {
+    background-color: #ffe28a;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    height: 40px;
+    margin: 0px auto;
+    flex-wrap: nowrap;
+    color: #84a3ff;
+    text-transform: uppercase;
+}
+
+.icons {
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.icons:hover {
+    scale: 90%;
+}
+
+.button, .learn-more, .continue, .sm-continue, .sm-blog-navL, .sm-blog-navR, .contact-submit, .more, .donate {
+    background-color: #f17cb0;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 160px;
+    color: white;
+}
+
+.button:hover, .learn-more:hover, .continue:hover, .sm-continue:hover, .sm-blog-navL:hover, .sm-blog-navR:hover, .contact-submit:hover, .more:hover, .donate:hover {
+    background-color: #ffa784;
+    scale: 97%;
+}
+
+.home-button:hover {
+    scale: 95%;
+}
+
+.donate {
+    transform: translate(-5px, -8px);
+}
+
+.learn-more {
+    width: 220px;
+    position: absolute;
+    top: 460px;
+    box-sizing: border-box;
+    margin-left: 370px;
+}
+
+.testimonial-text {
+    width: 440px;
+    text-align: left;
+    color: #6ad899;
+    font-weight: 900;
+    text-shadow: #222;
+    font-size: 16px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.testimonial-image {
+    width: 500px;
+    margin: 0px 60px;
+}
+
+.about-top {
+    text-align: right;
+    position: absolute;
+    top: 200px;
+    color: #84a3ff;
+    font-size: 16px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 90px;
+    padding-left:280px;
+    box-sizing: border-box;
+    
+}
+
+.more-about {
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    color: #84a3ff;
+    border-bottom: 3px solid #84a3ff;
+    padding: 0px 60px 60px 60px;
+}
+
+.mission {
+    color:#69d998;
+    padding-bottom: 20px;
+}
+
+.vision {
+    color: #ffa784;
+    padding-bottom: 20px;
+}
+
+.values {
+    color: #f485ff;
+    padding-bottom: 20px;
+}
+
+.faq {
+    margin: 60px;
+}
+
+.question, .faq-arrow, .comment, .message, .message-text {
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 60px;
+    background-color: #88e8d6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.faq-arrow {
+    text-align: right;
+    float: right;
+    margin: 0px 10px;
+    padding: 0px;
+    font-weight: 900;
+    font-size: 20px; 
+}
+
+.faq-arrow:hover {
+    color: #f17cb0;
+    scale: 125%;
+}
+
+.banner, .blog-banner, .page-banner {
+    margin-top: 98px;
+    color: #84a3ff;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.blog-banner {
+text-align: center;
+align-items: center;
+font-size: 18px;
+border-bottom: solid 2px #69d998;
+margin-left: 60px;
+margin-right: 60px;
+}
+
+.page-banner, .contact-title {
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 140px;
+}
+
+.card {
+    background-color:white;
+    width: 300px;
+    text-align: center;
+    margin: 40px 10px 20px 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.p-card {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4; /*number of lines*/
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+}
+
+.continue {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    width: 120px;
+}
+
+.large-image {
+    margin: 60px;
+    width: 600px;
+}
+
+.blog-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile {
+    max-width: 320px;
+    font-size: 12px;
+    padding: 40px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 160px;
+    border-radius: 150px;
+}
+
+.more {
+    font-size: 14px;
+}
+
+.blog-text {
+    padding: 60px 120px 60px 60px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.blog-title2 {
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.comment {
+    background-color: white;
+    border: 2px solid #84a3ff;
+    color: #84a3ff;
+}
+
+.sm-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.sm-card {
+    background-color:white;
+    width: 300px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+.sm-p-card {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3; /*number of lines*/
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+}
+
+.sm-continue {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    width: 100px
+}
+
+.sm-blog-navL, .sm-blog-navR {
+   width:32px;
+   padding: 0px;
+   border-radius: 90px;
+   transform: translate(0px, -180px);
+   margin: 0px auto;
+   flex-wrap: nowrap;
+   white-space: nowrap;
+}
+
+.sm-blog-navL {
+    padding-right: 4px;
+    padding-bottom: 3px;
+}
+
+.sm-blog-navR {
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+section {
+    border-bottom: 3px solid #84a3ff;
+    padding-bottom: 30px;
+    scale: 80%;
+    
+}
+
+.contact-title {
+    text-align: center;
+    margin: 160px auto 40px auto;
+    padding: 0px;
+}
+
+.contact-submit {
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+form, .contact {
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto 20px auto;
+    border: none;
+}
+
+input, input:focus{
+    font: 40px;
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+    color: #222;
+    padding: 20px;
+    background-color: #c4f56a;
+    border-radius: 10px;
+    outline:#6ad899;
+    border: none;
+}
+
+.thanks-title {
+    text-align: center;
+    margin: 160px auto 16px auto;
+    font-size: 62px;
+    text-transform: uppercase;
+}
+
+.section-nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 0px auto;
+   scale: 50%;
+   transform: translate(0px, -80px);
+}
+
+.hat {
+    scale:120%;
+}
+
+.nav2:hover {
+    color: #f17cb0;
+}
+
+.nav-box {
+    margin: 60px auto;
+}
+
