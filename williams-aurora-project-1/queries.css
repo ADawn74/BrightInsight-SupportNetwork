@@ -1,0 +1,398 @@
+@media screen and (max-width: 1150px) {
+    .sm-cards {
+        scale: 80%;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+        transform: translate(0px, -60px);
+        white-space: nowrap;
+    }
+    .sm-blog-navL {
+        padding: 0px 12px 2px 9px;
+    }
+
+    .testimonial-image {
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .testimonial-text {
+        font-size: 12px;
+    }
+
+    .icons {
+        scale: 80%;
+        margin: 0px;
+    }
+
+    .column, .row, a {
+        font-size: 12px;
+    }
+
+    footer, .footer {
+        font-size: 8px;
+    }
+
+    .h2-about {
+        font-size: 18px;
+    }
+
+    .about-top {
+        text-align: right;
+        position: absolute;
+        top: 32%;
+        color: #0063B2;
+        font-size: 14px;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 60px 0px 60px;
+    }
+
+    .large-image {
+      width: 480px;
+      height: 380px;
+      margin: 10px 0px 40px 0px;
+    }
+
+    .profile {
+        font-size: 12px;
+        margin: 0px;
+        max-width: 320px;
+        padding: 0px;
+    }
+
+    .blog-block {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px 60px 0px 60px;
+        align-items: start;
+    }
+
+    .profile-pic {
+        width: 130px;
+    }
+
+    .more {
+        font-size: 12px;
+        width: 120px;
+        margin: 0px;
+    }
+    
+
+}
+
+@media screen and (max-width: 940px) {
+
+    .large-image {
+        width: 400px;
+        height: 300px;
+        margin: 10px 0px 40px 0px;
+      }
+  
+      .profile {
+          font-size: 10px;
+          margin: 0px;
+          max-width: 240px;
+          padding: 0px;
+      }
+  
+      .blog-block {
+          display: flex;
+          justify-content: space-between;
+          margin: 0px;
+          padding: 0px 60px 0px 60px;
+          align-items: start;
+      }
+  
+      .profile-pic {
+          width: 110px;
+      }
+  
+      .more {
+          font-size: 12px;
+          width: 120px;
+          margin: 0px;
+      }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .large-image {
+        width: 320px;
+        height: 240px;
+        margin: 10px 0px 40px 0px;
+      }
+  
+      .profile {
+          font-size: 8px;
+          margin: 0px;
+          max-width: 200px;
+          padding: 0px;
+      }
+  
+      .blog-block {
+          display: flex;
+          justify-content: space-between;
+          margin: 0px;
+          padding: 0px 40px 0px 40px;
+          align-items: start;
+      }
+  
+      .profile-pic {
+          width: 90px;
+      }
+  
+      .more {
+          font-size: 8px;
+          width: 100px;
+          margin: 0px;
+      }
+
+    .hero-image-about {
+        background-image: none;
+        background-color: white;
+    }
+
+    .h2-about {
+        text-align: center;
+    }
+
+    .about-top {
+        text-align: center;
+        position: absolute;
+        top: 24%;
+        color: #0063B2;
+        font-size: 14px;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 60px 0px 60px;
+    }
+
+    .head-nav {
+        font-size: 10px;
+    }
+
+    .hero-text {
+        font-size: 32px;
+        max-width: 440px;
+    }
+
+    .hero-image-home { 
+        margin-left: -180px;
+
+    }
+
+    .learn-more {
+        margin-left: 200px;
+    } 
+    
+    .sm-cards {
+        scale: 60%;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+        transform: translate(0px, -120px);
+        white-space: nowrap;
+        font-size: 10px;
+}
+    .sm-blog-navL {
+        padding: 0px 12px 2px 9px;
+    }
+    
+    .involvement, .icons, .donate {
+        font-size: 12px;
+    }
+
+    .icons, .donate {
+        scale: 70%;
+        margin: 0px;
+    }
+
+    .icons {
+     margin-right: -10px;
+    }
+
+    .testimonial-image {
+        width: 300px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .testimonial-text {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .column, .row {
+        font-size: 10px;
+        column-gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .column {
+        transform: translate(-20px, 0px);
+    }
+
+    footer, .footer {
+        font-size: 8px;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+    }
+
+    .home-button  {
+        scale: 70%;
+        transform: translate( -12px, 0px);
+        margin: 0px 4px 0px 0px;
+        padding: 0px;
+        width: 90px;   
+    }
+    .home-button:hover {
+        scale: 62%;
+    }
+
+    .section-nav {
+        scale: 60%;
+    }
+
+    section {
+        height: 420px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .more-about {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .head-nav {
+        font-size: 8px;
+    }
+
+    .hero-text {
+        font-size: 32px;
+        max-width: 440px;
+    }
+
+    .hero-image-home { 
+        margin-left: -180px;
+
+    }
+
+    .learn-more {
+        margin-left: 200px;
+        scale: 80%;
+    } 
+    
+    .involvement, .icons, .donate {
+        font-size: 10px;
+    }
+
+    .icons, .donate {
+        scale: 60%;
+        margin: 0px;
+    }
+
+    .icons {
+     margin-right: -10px;
+    }
+
+    .testimonial-image {
+        width: 200px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .testimonial-text {
+        font-size: 11px;
+    }
+
+    a {
+        font-size: 8px;
+    }
+
+    .column, .row {
+        font-size: 8px;
+        column-gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer, .footer {
+        font-size: 6px;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+    }
+
+    .home-button  {
+        scale: 60%;
+        transform: translate( -12px, 0px);
+        margin: 0px 4px 0px 0px;
+        padding: 0px;
+        width: 80px;   
+    }
+    .home-button:hover {
+        scale: 52%;
+    }
+
+    .section-nav {
+        scale: 40%;
+    }
+
+    .column {
+        transform: translate(0px, 0px);
+    }
+
+    .more-about {
+        font-size: 10px;
+    }
+
+
+    .large-image {
+        width: 260px;
+        height: 190px;
+        margin: 10px 0px 40px 0px;
+      }
+  
+      .profile {
+          font-size: 8px;
+          margin: 0px;
+          max-width: 160px;
+          padding: 0px;
+      }
+  
+      .blog-block {
+          display: flex;
+          justify-content: space-between;
+          margin: 0px;
+          padding: 0px 30px 0px 30px;
+          align-items: center;
+      }
+  
+      .profile-pic {
+          width: 80px;
+      }
+  
+      .more {
+          font-size: 8px;
+          width: 80px;
+          margin: 0px;
+      }
+
+      .contact {
+        font-size: 200px;
+      }
+
+}
