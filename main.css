@@ -38,15 +38,19 @@ h1, h2, h3, h4, h5, h6, p, a, li, div, form, input {
 }
 
 header, footer, .footer {
-    background-color: #ffe28a;
+    background-color: #fff2a1;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px 20px;
     align-items: center;
-    color: #84a3ff;
+    color: #0063B2;
     font-size: 12px;
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 10px;
+}
+
+footer {
+    padding: 10px 20px;
 }
 
 header {
@@ -55,33 +59,34 @@ header {
     top: 0px;
     position: fixed;
     z-index: 1;
+    height: 72px;
 }
 
 h1 {
     font-size: 38px;
     font-weight: 900;
-    color: #84a3ff;
+    color: #0063B2;
     text-align: center;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 900;
-    color: #84a3ff;
+    color: #0063B2;
     text-align: center;
 }
 
 h3 {
     font-size: 18px;
     font-weight: 900px;
-    color: #84a3ff;
+    color: #0063B2;
     margin: 20px 0;
 }
 
 h4 {
     font-size: 14px;
     font-weight: 900px;
-    color: #84a3ff;
+    color: #0063B2;
     margin: 20px 0;
 }
 
@@ -98,13 +103,13 @@ h4 {
 
 a, .column {
     text-transform: uppercase;
-    color: #84a3ff;
-    font-size: 14px;
+    color: #0063B2;
+    font-size: 12px;
     text-align: left;
 }
 
 a:hover, .column:hover {
-    color: #69d998 ;
+    color: #00C257 ;
 }
 
 .column {
@@ -141,7 +146,7 @@ a:hover, .column:hover {
     text-align: left;
     position: absolute;
     top: 160px;
-    color: #84a3ff;
+    color: #0063B2;
     font-size: 54px;
     padding-left: 60px;
     width: 760px;
@@ -153,7 +158,7 @@ a:hover, .column:hover {
 }
 
 .involvement {
-    background-color: #ffe28a;
+    background-color: #fff2a1;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -161,7 +166,7 @@ a:hover, .column:hover {
     height: 40px;
     margin: 0px auto;
     flex-wrap: nowrap;
-    color: #84a3ff;
+    color: #0063B2;
     text-transform: uppercase;
 }
 
@@ -175,7 +180,7 @@ a:hover, .column:hover {
 }
 
 .button, .learn-more, .continue, .sm-continue, .sm-blog-navL, .sm-blog-navR, .contact-submit, .more, .donate {
-    background-color: #f17cb0;
+    background-color: #EB47C7;
     text-align: center;
     display: inline-block;
     font-size: 18px;
@@ -188,7 +193,7 @@ a:hover, .column:hover {
 }
 
 .button:hover, .learn-more:hover, .continue:hover, .sm-continue:hover, .sm-blog-navL:hover, .sm-blog-navR:hover, .contact-submit:hover, .more:hover, .donate:hover {
-    background-color: #ffa784;
+    background-color: #ff66de;
     scale: 97%;
 }
 
@@ -233,7 +238,7 @@ a:hover, .column:hover {
     text-align: right;
     position: absolute;
     top: 200px;
-    color: #84a3ff;
+    color: #0063B2;
     font-size: 16px;
     align-items: center;
     max-width: 1200px;
@@ -248,23 +253,23 @@ a:hover, .column:hover {
     align-items: center;
     text-align: center;
     margin: 80px;
-    color: #84a3ff;
-    border-bottom: 3px solid #84a3ff;
+    color: #0063B2;
+    border-bottom: 3px solid #0063B2;
     padding: 0px 60px 60px 60px;
 }
 
 .mission {
-    color:#69d998;
+    color:#EB47C7;
     padding-bottom: 20px;
 }
 
 .vision {
-    color: #ffa784;
+    color: #00C257;
     padding-bottom: 20px;
 }
 
 .values {
-    color: #f485ff;
+    color: #8B00C2;
     padding-bottom: 20px;
 }
 
@@ -277,7 +282,7 @@ a:hover, .column:hover {
     align-items: center;
     padding: 10px;
     margin: 20px 60px;
-    background-color: #88e8d6;
+    background-color: #66BBFF;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -294,13 +299,14 @@ a:hover, .column:hover {
 }
 
 .faq-arrow:hover {
-    color: #f17cb0;
+    color: #EB47C7;
     scale: 125%;
+    cursor: pointer;
 }
 
 .banner, .blog-banner, .page-banner {
     margin-top: 98px;
-    color: #84a3ff;
+    color: #0063B2;
     max-width: 1200px;
     box-sizing: border-box;
     padding: 20px;
@@ -310,7 +316,7 @@ a:hover, .column:hover {
 text-align: center;
 align-items: center;
 font-size: 18px;
-border-bottom: solid 2px #69d998;
+border-bottom: solid 2px #00C257;
 margin-left: 60px;
 margin-right: 60px;
 }
@@ -399,8 +405,8 @@ margin-right: 60px;
 
 .comment {
     background-color: white;
-    border: 2px solid #84a3ff;
-    color: #84a3ff;
+    border: 2px solid #0063B2;
+    color: #0063B2;
 }
 
 .sm-cards {
@@ -458,7 +464,7 @@ margin-right: 60px;
 }
 
 section {
-    border-bottom: 3px solid #84a3ff;
+    border-bottom: 3px solid #0063B2;
     padding-bottom: 30px;
     scale: 80%;
     
@@ -478,7 +484,7 @@ section {
     margin-bottom: 40px;
 }
 
-form, .contact {
+/*form, .contact {
     width: 640px;
     display: flex;
     justify-content: center;
@@ -495,11 +501,11 @@ input, input:focus{
     margin: 20px auto;
     color: #222;
     padding: 20px;
-    background-color: #c4f56a;
+    background-color: #92FF66;
     border-radius: 10px;
-    outline:#6ad899;
+    outline:#66BBFF;
     border: none;
-}
+}*/
 
 .thanks-title {
     text-align: center;
@@ -523,10 +529,40 @@ input, input:focus{
 }
 
 .nav2:hover {
-    color: #f17cb0;
+    color: #EB47C7;
 }
 
 .nav-box {
     margin: 60px auto;
 }
+
+.calendar {
+    margin: 0 auto 0 auto;
+    width: 800px;
+}
+
+.info {
+    margin: 0px 40px 40px 60px;
+    color: #0063B2;
+    font-size: 12px;
+}
+
+.service_contact {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.ps {
+    color: #0063B2;
+    text-align: center;
+}
+
+.head-nav {
+    font-size: 12px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 
