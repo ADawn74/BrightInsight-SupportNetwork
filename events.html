@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bright Insight - Support Network Home Page</title>
+    <title>Bright Insight Support Network Events Page</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="queries.css">
 </head>
@@ -26,50 +26,66 @@
 
 </header>
 
-<article>
+<!--<article>
     <p style="margin: 5.5vh;">Events</p>
     <div class="calendar">
         <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&showTitle=0&showNav=1&showDate=1&showTabs=0&showPrint=0&showCalendars=0&showTz=1&title=Events&src=YnJpZ2h0aW5zaWdodGFkdm9jYXRlQGdtYWlsLmNvbQ&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
 
-</article>
+</article>-->
+
+<div class=cal><iframe src="https://embed.styledcalendar.com/#n4KPSS1pYzNWhkoJEjCb" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none; margin-top: 100px;" data-cy="calendar-embed-iframe"></iframe>
+    <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+</div>
 
 
 <article> <!--GET INVOLVED-->
     <div class="involvement"> 
     <p class="involvement">get involved!</p> 
-    <p class="donate">donate</p>
+    <div class="popup" onclick="myFunction()">DONATE
+        <span class="popuptext" id="myPopup">Popup text...</span>
+    </div>
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
 
     <div>
         <a href="https://www.facebook.com/brightinsight.support/"><img class="icons" src="images/facebook-app-icon.png" alt="Facebook Icon"></a>
-        <img class="icons" src="images/Instagram_icon.png" alt="Instagram Icon">
-        <img class="icons" src="images/twitter-logo.jpg" alt="Twitter Icon">
+        <a href="https://www.linkedin.com/company/bright-insight-support-network/"><img class="icons" src="images/LinkedIn_icon.svg.png" alt="Linkedin Icon"></a>
+        <a href="https://twitter.com/Bright_Insight_"><img class="icons" src="images/twitter-logo.jpg" alt="twitter Icon"></a>
     </div>
 
+    
     </div>
 
 </article>
 
 <article class="nav-box">
-    <div class="section-nav">
+    <div class="section-nav1">
         <a href="about.html"><img src="images/about.png" alt="#"></a>
+        <a href="services.html"><img src="images/services.png" alt="#"></a>
         <a href="blog.html"><img src="images/blog.png" alt="#"></a>
         <a href="people.html"><img src="images/people.png" alt="#"></a>
         </div>
 
-    <div class="section-nav">
+    <div class="section-nav2">
         <a href="about.html"><h2 class="nav2">ABOUT</h2></a>
+        <a href="services.html"><h2 class="nav2">SERVICES</h2></a>
         <a href="blog.html"><h2 class="nav2">BLOG</h2></a>
         <a href="people.html"><h2 class="nav2">PEOPLE</h2></a>
     </div>
 
-    <div class="section-nav">
+    <div class="section-nav3">
         <a href="events.html"><img src="images/events.png" alt="#"></a>
         <a href="resources.html"><img src="images/resources.png" class="hat" alt="#"></a>
         <a href="contact.html"><img src="images/contact.png" alt="#"></a>
         </div>
     
-        <div class="section-nav">
+        <div class="section-nav4">
             <a href="events.html"><h2 class="nav2">&nbsp&nbspEVENTS</h2></a>
             <a href="resources.html"><h2 class="nav2">&nbsp&nbspRESOURCES</h2></a>
             <a href="contact.html"><h2 class="nav2">CONTACT</h2></a>
@@ -89,16 +105,18 @@
         <a href="https://twitter.com/bright_insight_?lang=en"><img class="icons" src="images/twitter-logo.jpg" alt="Twitter Icon"></a>
     </div>
 
-    <p class="footer">&copy2022 Bright Insight - Support Network</p>
+    <p class="footer">&copy2022 Bright Insight Support Network</p>
 
     <nav class="column">
-           <div class="row"> <a href="about.html">about</a>
-            <a href="blog.html">blog</a> 
-            <a href="people.html">people</a></div> 
-            <div class="row"><a href="events.html">events</a> 
-            <a href="resources.html">resources</a>
-            <a href="contact.html">contact</a></div>
-    </nav>
+        <div class="row" > 
+         <a class="foot-nav" href="about.html">about</a>
+         <a class="foot-nav" href="services.html">services</a>
+         <a class="foot-nav" href="blog.html">blog</a> 
+         <a class="foot-nav" href="people.html">people</a></div> 
+         <div class="row"><a class="foot-nav" href="events.html">events</a> 
+         <a class="foot-nav" href="resources.html">resources</a>
+         <a class="foot-nav" href="contact.html">contact</a></div>
+ </nav>
 
 </footer>
 

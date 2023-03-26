@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bright Insight - Support Network Home Page</title>
+    <title>Bright Insight Support Network About Page</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="queries.css">
 </head>
@@ -12,7 +12,7 @@
 <body>
 
 <header>
-    <a href="index.html" class="home-button" ><img  src="images/bright_insight_logo_copy2.jpg" alt="Bright Insight logo"></a>
+    <a href="index.html" class="home-div" ><img  src="images/bright_insight_logo_copy2.jpg" alt="Bright Insight logo"></a>
     
     <nav class="head-nav">
         <a class="head-nav" href="about.html">about&nbsp&nbsp</a>
@@ -26,27 +26,51 @@
 
 </header>
 
-<div class="hero-image-about"></div>
+<!--<div class="hero-image-about">
 
-<div class="about-top">
-   <h2 class="h2-about"> Welcome to Bright Insight - Support Network!</h2>
-    <p>&nbsp</p>
-   Founded in 2018 by therapist Patty Williams and public-school teacher Tori Jones, Bright Insight - Support Network takes a whole-person approach to educating about, advocating for, and supporting the gifted, twice-exceptional, and neurodivergent communities. As a grassroots organization, Bright Insight seeks to create a network of individuals, communities, and resources to collectively support exceptional individuals in all environments.
-    <p>&nbsp</p>
+<article class="about-head"><div ><img class="big-logo" src="images/bright_insight_logo white.png" width="540px"></div>
+  
+   <div class="h2-about"><h2 class="h2-about"> Welcome to Bright Insight Support Network!</h2></div>
+  <div class=about-text><p>&nbsp</p>
+   Founded in 2018 by therapist Patty Williams and public-school teacher Tori Jones, Bright Insight Support Network takes a whole-person approach to educating about, advocating for, and supporting the gifted, twice-exceptional, and neurodivergent communities. As a grassroots organization, Bright Insight seeks to create a network of individuals, communities, and resources to collectively support exceptional individuals in all environments.</div>
+    <p>&nbsp</p></div>
 
-</div>
+</article>-->
 
-<article> <!--GET INVOLVED-->
+<article class="about-head">
+  <div class="pie"><img src="images/half pie.png"></div>
+
+  <div class="about-words"><h2 class="h2-about"> Welcome to Bright Insight Support Network!</h2>
+
+  <div class=about-text><p>&nbsp</p>
+   Founded in 2018 by therapist Patty Williams and public-school teacher Tori Jones, Bright Insight Support Network takes a whole-person approach to educating about, advocating for, and supporting the gifted, twice-exceptional, and neurodivergent communities. <p>&nbsp</p> As a grassroots organization, Bright Insight seeks to create a network of individuals, communities, and resources to collectively support exceptional individuals in all environments.</div>
+    <p>&nbsp</p></div>
+
+  </article>
+
+
+
+  <article> <!--GET INVOLVED-->
     <div class="involvement"> 
     <p class="involvement">get involved!</p> 
-    <p class="donate">donate</p>
+    <div class="popup" onclick="myFunction()">DONATE
+        <span class="popuptext" id="myPopup">Popup text...</span>
+    </div>
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
 
     <div>
         <a href="https://www.facebook.com/brightinsight.support/"><img class="icons" src="images/facebook-app-icon.png" alt="Facebook Icon"></a>
         <a href="https://www.linkedin.com/company/bright-insight-support-network/"><img class="icons" src="images/LinkedIn_icon.svg.png" alt="Linkedin Icon"></a>
-        <img class="icons" src="images/twitter-logo.jpg" alt="Twitter Icon"></a>
+        <a href="https://twitter.com/Bright_Insight_"><img class="icons" src="images/twitter-logo.jpg" alt="twitter Icon"></a>
     </div>
 
+    
     </div>
 
 </article>
@@ -54,36 +78,95 @@
 <article>
     <div class="more-about">
        <h2 class="mission">Our Mission</h2>
-       Bright Insight - Support Network’s mission is to educate, advocate for, and encourage gifted, twice-exceptional, and neurodivergent persons, while creating a network of support through which the needs of this unique population can be identified and met.
+       Bright Insight Support Network’s mission is to educate, advocate for, and encourage gifted, twice-exceptional, and neurodivergent persons, while creating a network of support through which the needs of this unique population can be identified and met.
     </div>
 
     <div class="more-about">
         <h2 class="vision">Our Vision</h2>
-        Bright Insight - Support Network’s vision is that through insight and empowerment, exceptional individuals and underserved populations will receive the support necessary to thrive.
+        Bright Insight Support Network’s vision is that through insight and empowerment, exceptional individuals and underserved populations will receive the support necessary to thrive.
     </div>
 
     <div class="more-about">
         <h2 class="values">Our Values</h2>
-        Bright Insight - Support Network is a neurodiversity affirmative organization that values Compassion, Congruence, and Creativity along with Unconditional Positive Regard for all people from all cultures and walks of life. Bright Insight - Support Network also seeks to maintain a growth mindset while focusing on individual and community strengths.
+        Bright Insight Support Network is a neurodiversity-affirming organization that values Compassion, Congruence, and Creativity along with Unconditional Positive Regard for all people from all cultures and walks of life. Bright Insight - Support Network also takes a whole-person approach to meeting needs, while focusing on individual and community strengths.
     </div>
 
 </article>
 
 <article class="faq">
     <h2>FAQ</h2>
-        <div class="question">What is Gifted/Giftedness?<p class="faq-arrow">▼</p></div>
-        <div class="question">What is meant by Learning Difference/Learning Disability/Disability or Second Exceptionality?<p class="faq-arrow">▼</p></div>
-        <div class="question">What is Twice-Exceptionality (2e)?<p class="faq-arrow">▼</p></div>
-        <div class="question">What is meant by Neurodiversity, Neurodivergence, Neurodivergent (ND), and Neurotypical (NT)?<p class="faq-arrow">▼</p></div>
-        <div class="question">What are Bright Insight Table Talks (BITTs)?<p class="faq-arrow">▼</p></div>
-        <div class="question">What is Dabrowski's Theory of Positive Disintegration?<p class="faq-arrow">▼</p></div>
-        <div class="question">What are Overexcitabilities (OEs)?<p class="faq-arrow">▼</p></div>
-</article>
-    
+<details>
+        <summary>What is Gifted/Giftedness?</summary>
+        <div class="content">
+          <p>
+            Though gifted and giftedness are commonly used terms in education, the definition of giftedness can vary depending on the setting. The Columbus Group (1991) definition defines giftedness is: "asynchronous development in which advanced cognitive abilities and heightened intensity combine to create inner experiences and awareness that are qualitatively different from the norm. This asynchrony increases with higher intellectual capacity. The uniqueness of the gifted renders them particularly vulnerable and requires modifications in parenting, teaching, and counseling in order for them to develop optimally."<p>&nbsp</p>
 
- 
+        Patty and a group of informed and explorative professionals and laypersons are getting ready to work on this definition. Currently, Patty Williams, founder of BISN, is defining gifted persons as those with a highly above-average ability to acquire new understanding, knowledge, behaviors, skills, values, attitudes, and preferences through a process of rapid pattern-finding and meaning-making, which is often retained after one to two repetitions of exposure. Along with this rapid ability to learn, it is also noted that gifted persons tend to experience the world with great intensity or the blunting of intensity in sensual, psychomotor, imaginational, intellectual, and/or emotional domains, and develop in a way that is initially asynchronous.<p>&nbsp</p>
+
+        To be considered gifted, individuals are ofted identified as gifted in grade school, by a psychologist, and/or by a gifted peer group. They could also have an IQ over 130 (this number varies depending on IQ test and measures) or be members of groups for gifted individuals such as Mensa, InterGifted, The Puttyverse, or otherwise. It is understood that many adults do not identify their own giftedness until they have gifted children of their own or gifted peers in adulthood (Kuipers, 2007; Milic & Simeunovic, 2020). Seeing themselves through their later identified children or peers is common and considered reliable in relation to earlier identification efforts (Kuipers, 2007; Milic & Simeunovic, 2020). Self-identification is also considered appropriate when evidenced in some appropriate or anecdotal manner.
+
+          </p>
+        </div>
+</details>
+<details>
+    <summary>What is meant by Learning Difference/Learning Disability/Disability or Second Exceptionality?</summary>
+    <div class="content">
+      <p>
+        The National Institute of Health’s National Institute of Neurological Disorders and Stroke (n.d.) specifically states that “Learning disabilities are disorders that affect the ability to understand or use spoken or written language, do mathematical calculations, coordinate movements, or direct attention,” (Definition, para.2). Examples of a learning disability may include dyslexia, dysgraphia, dyscalculia, apraxia of speech, central auditory processing disorder, nonverbal learning disorders, and more (National Institute of Child Health and Human Development, 2018). Due to the nature of the construct and issues with under-identification, a person can self-identify as having a learning disorder if they believe or have been known to have a learning disability or impairment. This definition is consistent with Title 29 of the Code of Federal Regulations, part 1630.2, item g (29 C.F.R. § 1630.2[g]), where it is recognized that a person is identified as having a disability if they present with, is regarded as, or has a record of physical or mental impairment seen as substantially limiting a single or multiple major life activities (National Archives, 2011). Second exceptionalities though can relate to other differences depending on others' lived experiences (more about this under twice-exceptional).
+      </p>
+    </div>
+</details>
+<details>
+    <summary>What is Twice-Exceptionality (2e)?</summary>
+    <div class="content">
+      <p>
+        Linda Silverman (2009), a long-time contributor to the field of gifted education, therapy, and twice-exceptionality, reported in her hallmark article about gifted compensation that the identification of twice-exceptionality distinguishes those who have both accelerated ability and learning struggles. Reis et al. (2014) rather considered a more operational outlining of this term, using the Joint Commission on Twice Exceptionality’s definition that identified 2e persons as those who display high-potential and exceptional talent, along with social, attention, and learning adversities, placing them at an identified risk of social-emotional difficulties and underachievement without early, professional intervention. Reis et al. further suggested that this risk to 2e persons can be mitigated by important leaders and professionals who remain consistently aware of and responsive to needs related to twice-exceptionality. There is no clinical definition for twice-exceptionality in the DSM-V or other diagnostic manuals.
+      </p>
+    </div>
+</details>
+<details>
+    <summary>What is meant by Neurodiversity, Neurodivergence, Neurodivergent (ND), and Neurotypical (NT)?</summary>
+    <div class="content">
+      <p>
+        According to Judy Singer who developed the term, Neurodiversity is a feature of Earth as a whole, that refers to the limitless variability of human cognition and the uniqueness of each human mind. It is a political term to argue for the importance of including all neurotypes for a thriving human society. Neurodivergence then or being Neurodivergent is simply a difference in how the brain works that is qualitatively and even measurably from the norm or those who are Neurotypical. Society and practitioners are starting to shift to no longer treating neurodivergence as an illness, but rather as a different method of learning and processing information such as is seen with autism, ADHD, dyslexia, bipolar, and so on (this is a very large umbrella). 
+      </p>
+    </div>
+</details>
+<details>
+    <summary>What are Bright Insight Table Talks (BITTs)?</summary>
+    <div class="content">
+      <p>BITTs are monthly meetings over Zoom (and sometimes in person as they travel) that occur to explore topics that impact gifted, ND, and 2e persons. BITT schedules and links are posted on <a href="events.html">this site</a> and on the Bright Insight Support Network <a href="https://www.facebook.com/brightinsight.support/">Facebook</a> page.
+      </p>
+    </div>
+</details>
+<details>
+    <summary>What is Dabrowski's Theory of Positive Disintegration?</summary>
+    <div class="content">
+      <p>
+        In Dabrowski's Theory of Positive Disintegration, positive disintegration is the emotional and personality development process leading to one's unique and authentic self.<p>&nbsp</p>
+
+<a href=https://tragicgift.com/positive-disintegration-basics/>The Tragic Gift</a> explores this well.<p>&nbsp</p>
+
+<a href=https://www.youtube.com/playlist?list=PL0zTSZrCyBuYiXxLoSbRZip8uYvnyQ60q>Videos about Dabrowski's Theory of Positive Disintegration (TPD)</a><p>&nbsp</p>
+
+For more details visit the <a href=https://dabrowskicenter.org/>Dabrowski Center website</a>
+      </p>
+    </div>
+</details>
+<details>
+    <summary>What are Overexcitabilities (OEs)?</summary>
+    <div class="content">
+      <p>
+        Kazimierz Dabrowski (1902-1980), a Polish psychologist (see Dabrowski's Theory of Positive Disintegration), identified five intense behaviors or "over-excitabilities" (OEs) that are often displayed by gifted persons. These intensities include psychomotor, sensual, emotional, intellectual, and imaginational types. And while one of these OEs may be dominant, they are often combined to form a perfect picture (or storm) of what makes gifted children so unique.<br><a href="https://www.gifteddevelopment.org/musings/newinsights">Read More Here</a>
+      </p>
+    </div>
+</details>
+</article>
+
+
+
 <footer>
-    <a href="index.html" class="home-button"><img  src="images/bright_insight_logo_copy2.jpg" alt="Bright Insight logo"></a>
+    <a href="index.html" class="home-div"><img  src="images/bright_insight_logo_copy2.jpg" alt="Bright Insight logo"></a>
 
     <div>
         <a href="https://www.facebook.com/brightinsight.support/"><img class="icons" src="images/facebook-app-icon.png" alt="Facebook Icon"></a>
@@ -91,16 +174,18 @@
         <a href="https://twitter.com/bright_insight_?lang=en"><img class="icons" src="images/twitter-logo.jpg" alt="Twitter Icon"></a>
     </div>
 
-    <p class="footer">&copy2022 Bright Insight - Support Network</p>
+    <p class="footer">&copy2022 Bright Insight Support Network</p>
 
     <nav class="column">
-           <div class="row"> <a href="about.html">about</a>
-            <a href="blog.html">blog</a> 
-            <a href="people.html">people</a></div> 
-            <div class="row"><a href="events.html">events</a> 
-            <a href="resources.html">resources</a>
-            <a href="contact.html">contact</a></div>
-    </nav>
+        <div class="row" > 
+         <a class="foot-nav" href="about.html">about</a>
+         <a class="foot-nav" href="services.html">services</a>
+         <a class="foot-nav" href="blog.html">blog</a> 
+         <a class="foot-nav" href="people.html">people</a></div> 
+         <div class="row"><a class="foot-nav" href="events.html">events</a> 
+         <a class="foot-nav" href="resources.html">resources</a>
+         <a class="foot-nav" href="contact.html">contact</a></div>
+ </nav>
 
 </footer>
 
