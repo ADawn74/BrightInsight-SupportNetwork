@@ -22,6 +22,11 @@
     font-style: italic;
 }
 
+html {
+    font-size: calc(7px + .8vw);
+    min-width: 750px;
+}
+
 * {
     margin: 0px auto;
     padding: 0;
@@ -31,7 +36,7 @@
 
 h1, h2, h3, h4, h5, h6, p, a, li, div, form, input, .in-text {
     font-family: "Dyslexie", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: normal;
     color: #222;
     text-decoration: none;
@@ -40,19 +45,21 @@ h1, h2, h3, h4, h5, h6, p, a, li, div, form, input, .in-text {
 header, footer, .footer {
     background-color: #fff2a1;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px 2%;
     align-items: center;
     color: #0063B2;
-    font-size: 12px;
+    font-size: .75rem;
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 10px;
 }
 
+
+
 .in-text {
     text-decoration: underline;
     text-transform: none;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 footer {
@@ -69,36 +76,36 @@ header {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: 900;
     color: #0063B2;
     text-align: center;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #0063B2;
     text-align: center;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 900px;
     color: #0063B2;
-    margin: 20px 0;
+    margin: 2% 0;
 }
 
 h4 {
-    font-size: 14px;
+    font-size: .8rem;
     font-weight: 900px;
     color: #0063B2;
-    margin: 20px 0;
+    margin: 2% 0;
 }
 
 .h2-about {
 
-    font-size: 32px;
+    font-size: 2rem;
 
 }
 
@@ -110,7 +117,7 @@ h4 {
 a, .column {
     text-transform: uppercase;
     color: #0063B2;
-    font-size: 12px;
+    font-size: .75rem;
     text-align: left;
 }
 
@@ -158,7 +165,7 @@ a:hover, .column:hover {
  .about-text {
     max-width: 860px;
     color: #0063B2;
-    font-size: 16px;
+    font-size: 1rem;
  }
 
  .big-logo {
@@ -172,7 +179,7 @@ a:hover, .column:hover {
     position: absolute;
     top: 160px;
     color: #0063B2;
-    font-size: 50px;
+    font-size: 3.125rem;
     padding-left: 60px;
     width: 1000px;
     font-family: "Dyslexie";
@@ -208,7 +215,7 @@ a:hover, .column:hover {
     background-color: #EB47C7;
     text-align: center;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     margin: auto;
     padding: 10px;
@@ -235,7 +242,7 @@ a:hover, .column:hover {
     position: absolute;
     top: 460px;
     box-sizing: border-box;
-    margin-left: 570px;
+    margin-left: 37.5vw;
 }
 
 .testimonial-text {
@@ -243,7 +250,7 @@ a:hover, .column:hover {
     text-align: left;
     color: #00C257;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1rem;
     margin-left: 40px;
 }
 
@@ -264,7 +271,7 @@ a:hover, .column:hover {
     position: absolute;
     top: 200px;
     color: #0063B2;
-    font-size: 16px;
+    font-size: 1rem;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -307,7 +314,7 @@ a:hover, .column:hover {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 
@@ -317,7 +324,7 @@ a:hover, .column:hover {
     margin: 0px 10px;
     padding: 0px;
     font-weight: 900;
-    font-size: 20px; 
+    font-size: 1.25rem; 
 }
 
 .faq-arrow:hover {
@@ -337,7 +344,7 @@ a:hover, .column:hover {
 .blog-banner, .services-banner, .people-banner, .resources-banner {
 text-align: center;
 align-items: center;
-font-size: 18px;
+font-size: 1.125rem;
 border-bottom: solid 2px #00C257;
 }
 
@@ -370,20 +377,24 @@ border-bottom: solid 2px #00C257;
     overflow: hidden;
     -webkit-line-clamp: 4; /*number of lines*/
     -webkit-box-orient: vertical;
-    font-size: 12px;
+    font-size: .75rem;
+    margin-top: 6px;
+    padding-top: 6px;
 }
 
 .continue {
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    font-size: 14px;
+    font-size: .875rem;
     width: 120px;
 }
 
 .large-image {
-    margin: 60px;
-    width: 600px;
+    margin: 4%;
+    width: 40vw;
+    height: fit-content;
+    min-width: 280px;
 }
 
 .blog-block {
@@ -392,33 +403,52 @@ border-bottom: solid 2px #00C257;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .profile {
-    max-width: 320px;
-    font-size: 12px;
-    padding: 40px;
+    max-width: 25vw;
+    font-size: .75rem;
+    padding: 3vw;
     text-align: center;
+    margin: 0px;
+
+}
+
+.profile-text {
+    font-size: .75rem;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 9; /*number of lines*/
+    -webkit-box-orient: vertical;
+    max-lines: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .profile-pic {
-    width: 160px;
+    width: 11vw;
     border-radius: 150px;
+    min-width: 70px;
 }
 
 .more {
-    font-size: 14px;
+    font-size: .875rem;
+    width: fit-content;
+    padding: 4%;
 }
 
 .blog-text, .date {
     padding: 60px 120px 60px 60px;
     text-align: left;
-    font-size: 14px;
+    font-size: .875rem;
     line-height: 25px;
 }
 
 .date {
-    font-size: 12px;
+    font-size: .75rem;
     padding: 12px 120px 0px 60px;
 }
 
@@ -457,14 +487,14 @@ border-bottom: solid 2px #00C257;
     overflow: hidden;
     -webkit-line-clamp: 3; /*number of lines*/
     -webkit-box-orient: vertical;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .sm-continue {
     margin-top: 16px;
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: .75rem;
     width: 100px
 }
 
@@ -535,7 +565,7 @@ input, input:focus{
 .thanks-title {
     text-align: center;
     margin: 160px auto 16px auto;
-    font-size: 62px;
+    font-size: 3.875rem;
     text-transform: uppercase;
 }
 
@@ -575,7 +605,7 @@ input, input:focus{
     margin: 0px auto;
     max-width: 680px;
     color: #0063B2;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .service_contact {
@@ -589,7 +619,7 @@ input, input:focus{
 }
 
 .head-nav {
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .underline {
@@ -601,7 +631,7 @@ input, input:focus{
 }
 
 .foot-nav {
-    font-size: 8px;
+    font-size: .5rem;
 }
 
 .faq {
@@ -759,7 +789,7 @@ summary {
     padding: 4px 6px;
     background-color: #E18FFF;
     cursor: pointer;
-    font-size: 10px;
+    font-size: .625rem;
     border-radius: 4px;
     color: #222;
     margin: 4px;
@@ -776,7 +806,7 @@ summary {
   }
 
   .sort-title {
-    font-size: 8px;
+    font-size: .5rem;
     margin: 6px 6px;
     color: #222;
   }
@@ -799,6 +829,8 @@ summary {
 
   .card-title {
     height: 60px;
+    margin-bottom: 6px;
+    padding-bottom: 9px;
   }
 
   .person {
@@ -810,7 +842,7 @@ summary {
   }
 
   .bio-r, .bio-l{
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   .bio-l {
@@ -838,7 +870,7 @@ summary {
 
 .about-head {
     display: flex;
-    padding: 0px 140px;
+    padding: 0px 9.2vw;
     margin-top: 100px;
     align-items: center;
 }
@@ -849,10 +881,11 @@ summary {
 
 .h2-about {
     text-align: left;
+    font-size: 1.5rem;
 }
 
 .title {
-    font-size: 12px;
+    font-size: .75px;
     color: #0063B2;
 }
 

@@ -1,4 +1,6 @@
-@media screen and (max-width: 1150px) {
+
+
+/*@media screen and (max-width: 1150px) {
     .sm-cards {
         scale: 80%;
         margin: 0px;
@@ -71,9 +73,7 @@
         align-items: start;
     }
 
-    .profile-pic {
-        width: 130px;
-    }
+    
 
     .more {
         font-size: 12px;
@@ -84,9 +84,69 @@
 
 }
 
+*/ 
+    
+
+@media screen and (max-width: 1250px) {
+
+    .h2-about {
+        font-size: 1.2rem;
+    }
+    
+    .hero-image-home {
+        margin-left: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 1150px) {
+
+    .hero-image-home {
+        margin-left: 180px;
+    }
+
+    .card-img {
+        width: 220px;
+    }
+    
+}
+
 @media screen and (max-width: 940px) {
 
-    .large-image {
+    .icons {
+        scale: 80%;
+        margin: 0px;
+    } 
+    
+    .hero-image-home {
+        margin-left: 60px;
+    }
+
+    .home-button {
+        max-width: 130px;
+    }
+
+    .blog-block {
+        justify-content: left;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    header {
+        min-width: 640px;
+    }
+    .head-nav {
+        min-width: 460px;
+    }
+    
+}
+
+
+
+
+    /*.large-image {
         width: 400px;
         height: 300px;
         margin: 10px 0px 40px 0px;
@@ -395,4 +455,10 @@
         font-size: 200px;
       }
 
+}*/
+
+@media screen and (max-width: 500px) {
+
+    
+    
 }
