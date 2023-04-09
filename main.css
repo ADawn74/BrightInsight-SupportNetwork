@@ -341,6 +341,10 @@ a:hover, .column:hover {
     padding: 20px;
 }
 
+.page-banner {
+    padding: 0;
+}
+
 .blog-banner, .services-banner, .people-banner, .resources-banner {
 text-align: center;
 align-items: center;
@@ -392,7 +396,7 @@ border-bottom: solid 2px #00C257;
 
 .large-image {
     margin: 4%;
-    width: 40vw;
+    width: 30vw;
     height: fit-content;
     min-width: 280px;
 }
@@ -403,21 +407,21 @@ border-bottom: solid 2px #00C257;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     align-content: center;
 }
 
 .profile {
-    max-width: 25vw;
+    max-width: 36vw;
     font-size: .75rem;
-    padding: 3vw;
+    padding: 2vw;
     text-align: center;
     margin: 0px;
 
 }
 
 .profile-text {
-    font-size: .75rem;
+    font-size: .7rem;
     display: -webkit-box;
     overflow: hidden;
     -webkit-line-clamp: 9; /*number of lines*/
@@ -429,15 +433,15 @@ border-bottom: solid 2px #00C257;
 }
 
 .profile-pic {
-    width: 11vw;
+    width: 9vw;
     border-radius: 150px;
     min-width: 70px;
 }
 
 .more {
-    font-size: .875rem;
+    font-size: .75rem;
     width: fit-content;
-    padding: 4%;
+    padding: 3%;
 }
 
 .blog-text, .date {
@@ -455,7 +459,7 @@ border-bottom: solid 2px #00C257;
 .blog-title2 {
     text-align: left;
     padding-left: 60px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .comment {
@@ -847,6 +851,7 @@ summary {
 
   .bio-l {
     margin-right: 10px;
+    margin-left: 10px;
   }
 
   .bio-r {
@@ -859,13 +864,14 @@ summary {
 
   }
 
-  .headshot {
+  .headshot-l, .headshot-r {
     width: 220px;
     padding: 10px;
     text-align: center;
     color:#0063B2;
     font-weight: 600;
   }
+
 
 
 .about-head {
@@ -885,7 +891,7 @@ summary {
 }
 
 .title {
-    font-size: .75px;
+    font-size: .75rem;
     color: #0063B2;
 }
 
