@@ -457,18 +457,23 @@
 
 }*/
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 500px) {
 
     html {
         font-size: calc(7px + .8vw);
         max-width: 100vw;
     }
+
+    .overlay {
+        display: block;
+    }
     
     * {
-        margin: 0px auto;
+        margin: 0px;
         padding: 0;
         /*max-width: 1200px;*/
-        font-family: "dyslexie", sans-serif;
+        font-family:"dyslexie", sans-serif;
+        max-width: 100%;
     }
     
     h1, h2, h3, h4, h5, h6, p, a, li, div, form, input, .in-text {
@@ -489,10 +494,7 @@
         display: grid;
         grid-auto-flow: column;
         grid-column-gap: 10px;
-        width: 100vw;
     }
-    
-    
     
     .in-text {
         text-decoration: underline;
@@ -507,12 +509,12 @@
     
     header {
         width: 100vw;
-        box-sizing: border-box;
+        box-sizing: unset;
         top: 0px;
         position: fixed;
         z-index: 1;
         height: 72px;
-        max-width: 500px;
+        max-width: 100%;
     }
     
     h1 {
@@ -651,7 +653,6 @@
         display: inline-block;
         font-size: 1.125rem;
         text-transform: uppercase;
-        margin: auto;
         padding: 8px;
         border-radius: 20px;
         width:fit-content;
@@ -708,7 +709,7 @@
         font-size: 1rem;
         align-items: center;
         max-width: 100vw;
-        margin: 0 auto;
+        margin: 0;
         padding-right: 6vw;
         padding-left: 18vw;
         box-sizing: border-box;
@@ -805,7 +806,7 @@
     .cards {
         width: 90vw;
         max-width: 500px;
-        margin: 0 auto;
+        margin: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -906,7 +907,7 @@
     
     .sm-cards {
         max-width: 90vw;
-        margin: 0 auto;
+        margin: 0;
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
@@ -917,7 +918,7 @@
         background-color:white;
         width: 20vw;
         text-align: center;
-        margin: 40px auto;
+        margin: 40px;
         padding: 6px;
         display: inline-block;
     }
@@ -994,8 +995,8 @@
     }
     
     .calendar {
-        margin: 0 auto 0 auto;
-        width: 300px;
+        margin: 0;
+        width: 100px;
     }
     
     .info {
@@ -1239,5 +1240,5 @@
         from {opacity: 0;}
         to {opacity:1 ;}
       }  
+    }
     
-}

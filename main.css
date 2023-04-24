@@ -34,6 +34,30 @@ html {
     font-family: "dyslexie", sans-serif;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 70, 126, 0.75);
+    z-index: 9999;
+    display: none;
+
+  }
+
+.screen-error {
+    opacity: 1;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: left;
+    max-width: 300px;
+    margin-left: 50px;
+    position: fixed;
+    font-size: 18px;
+}
+
 h1, h2, h3, h4, h5, h6, p, a, li, div, form, input, .in-text {
     font-family: "Dyslexie", sans-serif;
     font-size: 1rem;
@@ -944,3 +968,5 @@ summary {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+  
