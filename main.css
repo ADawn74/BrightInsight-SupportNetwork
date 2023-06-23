@@ -842,7 +842,7 @@ summary {
   .filters {
     margin-left: 160px;
     margin-top: 14px;
-    max-width: 600px;
+    max-width: 1200px;
     display: flex;
     flex-wrap:wrap;
   }
