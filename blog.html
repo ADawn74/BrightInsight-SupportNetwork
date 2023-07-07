@@ -49,6 +49,7 @@
     <div class="break"><p>&nbsp</p> </div>
     <div class="sort-title">BY TOPIC ➔</div>
     <button class="btn" onclick="filterSelection('Overexcitability')"> Overexcitabilities</button>
+    <button class="btn" onclick="filterSelection('Identity&Development')"> Identity & Development</button>
     <button class="btn" onclick="filterSelection('Giftedness')"> Giftedness</button>
     <button class="btn" onclick="filterSelection('Neurodiversity')"> Neurodiversity</button>
     <button class="btn" onclick="filterSelection('2E')"> 2E</button>
@@ -68,7 +69,22 @@
 <article class="cards">
 
     <article>
-        <div class="filterDiv Reuven Giftedness GiftedAdulthood Psychology">
+        <div class="filterDiv Patty Giftedness Advocacy GiftedAdulthood PositiveDisintegration Authenticity Identity&Development">
+        <div class="card">
+            <img src="images/lighthouse.jpg" alt="lighthouse" height="220px">
+        <h3 class="card-title">Identity Flow Like H2O</h3>
+        <p class="p-card">
+            In our Bloomers: Gifted and 2e Adults group on Facebook, I posted a Sunday Funday prompt asking folx:
+In 10 words or less, give me your title... Not your job title or typical labels. What/Who are you, REALLY!?
+This is a prompt I use with my first-year college students also, during the first week or two of new semesters. It is a great one for any classroom or shared space and gets us thinking of who we
+ 
+            </p>
+        <a href="B-IdentityFlow.html"><p class="continue">continue</p></a>
+        </div>
+    </article>
+    
+    <article>
+        <div class="filterDiv Reuven GiftedAdulthood Psychology">
         <div class="card">
             <img src="images/dreams.png" alt="img1" height="220px">
         <h3 class="card-title">Dreams</h3>
@@ -92,7 +108,7 @@
     </article>
     
     <article>
-        <div class="filterDiv Bob Giftedness">
+        <div class="filterDiv Bob Giftedness Parenting Relationships&Communication">
         <div class="card">
             <img src="images/fireplace.jpg" alt="img1" height="220px">
         <h3 class="card-title">Listening Efficiently to Gifted Kids</h3>
@@ -104,7 +120,7 @@
     </article>
     
     <article>
-        <div class="filterDiv Patty Giftedness">
+        <div class="filterDiv Patty Giftedness MentalHealth">
         <div class="card">
             <img src="images/thom-milkovic-FTNGfpYCpGM-unsplash.jpg" alt="img1" height="220px">
         <h3 class="card-title">Writing About Giftedness&Trauma(P1) </h3>
@@ -117,7 +133,7 @@
     
     
     <article>
-        <div class="filterDiv Lacey Giftedness Neurodiversity 2E">
+        <div class="filterDiv Lacey GiftedAdulthood">
         <div class="card">
             <img src="images/lacey blog image 1.jpg" alt="img1" height="220px">
         <h3 class="card-title">Finding Out I'm Gifted</h3>
@@ -130,7 +146,7 @@
     </article>
     
     <article>
-        <div class="filterDiv Patty">
+        <div class="filterDiv Patty PositiveDisintegration Giftedness">
         <div class="card">
             <img src="images/Untitled Design (2).jpg" alt="img1" height="220px">
         <h3 class="card-title">Confidence and Humility</h3>
@@ -142,7 +158,7 @@
     </article>
 
     <article>
-        <div class="filterDiv Patty Overexcitability">
+        <div class="filterDiv Patty Overexcitability PositiveDisintegration Parenting Giftedness">
         <div class="card">
             <img src="images/kinga-howard-FVRTLKgQ700-unsplash.jpg" alt="img1" height="220px">
         <h3 class="card-title">OEs- Original Equipment</h3>
@@ -155,7 +171,7 @@
     </article>
 
     <article>
-        <div class="filterDiv Patty">
+        <div class="filterDiv Patty Psychology MentalHealth PositiveDisintegration">
         <div class="card">
             <img src="images/dialect.jpg" alt="img1" height="220px">
         <h3 class="card-title">Dialectics: Work and Rest</h3>
@@ -166,7 +182,7 @@
     </article>
     
     <article>
-        <div class="filterDiv Patty Overexcitability">
+        <div class="filterDiv Patty Overexcitability Giftedness">
         <div class="card">
             <img src="images/alireza-attari-SBIak0pKUIE-unsplash.jpg" alt="img1" height="220px">
         <h3 class="card-title">Overexcitability- Is It A Thing?</h3>
@@ -177,7 +193,7 @@
     </article>
 
     <article>
-        <div class="filterDiv Patty Giftedness 2E Neurodiversity">
+        <div class="filterDiv Patty Giftedness 2E Neurodiversity Identity&Development">
         <div class="card">
             <img src="images/compensation.jpg" alt="img1" height="220px">
         <h3 class="card-title">Gifted Compensation</h3>
@@ -190,7 +206,7 @@
     </article>
     
     <article>
-        <div class="filterDiv Patty">
+        <div class="filterDiv Patty Psychology Neurodiversity Parenting Identity&Development">
         <div class="card">
             <img src="images/senjuti-kundu-JfolIjRnveY-unsplash.jpg" alt="img1" height="220px">
         <h3 class="card-title">Goodness of Fit</h3>
@@ -201,7 +217,7 @@
     </article>
 
     <article>
-        <div class="filterDiv Patty Giftedness">
+        <div class="filterDiv Patty Giftedness Advocacy">
         <div class="card">
             <img src="images/bright_insight_logo copy.jpg" alt="img1" height="220px" width="300px">
         <h3 class="card-title">Bright Insight… What is this all about?</h3>
@@ -244,6 +260,8 @@
       if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
     }
   }
+
+  
   
   function w3RemoveClass(element, name) {
     var i, arr1, arr2;
