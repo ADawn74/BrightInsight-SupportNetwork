@@ -138,7 +138,7 @@ h4 {
 
 }
 
-a, .column {
+a, .column, .b {
     text-transform: uppercase;
     color: #0063B2;
     font-size: .75rem;
@@ -147,7 +147,7 @@ a, .column {
 
 a:hover, .column:hover {
     color: #00C257 ;
-}
+} 
 
 .column {
     column-count: 2;
@@ -968,8 +968,3 @@ summary {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
-
-  iframe {
-    width: 100%;
-    height: 100vh;
-  }  
